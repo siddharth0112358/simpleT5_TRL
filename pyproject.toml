@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simplet5_trl"
-version = "0.3.0"
+version = "0.3.1"
 description = "simpleT5_TRL is built on top of HuggingFace Transformers and TRL that lets you quickly train encoder-decoder models (T5, BART, T5Gemma, etc.) with full finetuning, LoRA, QLoRA, DPO, SimPO, and RFT support."
 readme = "README.md"
 license = "MIT"
@@ -15,7 +15,6 @@ requires-python = ">=3.9"
 classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",

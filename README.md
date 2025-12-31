@@ -1,24 +1,3 @@
-<img align="center" src="data/st5.png" alt="simpleT5_TRL">
-
-<p align="center">
-<b>Train any encoder-decoder model (T5, BART, T5Gemma, etc.) with Full Finetuning, LoRA, QLoRA, DPO, SimPO & RFT in just a few lines of code
-</b>
-</p>
-<p align="center">
-<a href="https://badge.fury.io/py/simplet5_trl"><img src="https://badge.fury.io/py/simplet5_trl.svg" alt="PyPI version" height="18"></a>
-
-<a href="https://badge.fury.io/py/simplet5_trl">
-        <img alt="Stars" src="https://img.shields.io/github/stars/Shivanandroy/simpleT5?color=blue">
-    </a>
-<a href="https://pepy.tech/project/simplet5_trl">
-        <img alt="Stats" src="https://static.pepy.tech/personalized-badge/simplet5_trl?period=total&units=international_system&left_color=black&right_color=brightgreen&left_text=Downloads">
-    </a>
-<a href="https://opensource.org/licenses/MIT">
-        <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
-    </a>
-</p>
-
-
 **simpleT5_TRL** is built on top of HuggingFace Transformers and TRL for training encoder-decoder models with **Full Finetuning**, **LoRA**, **QLoRA**, and preference optimization methods (**DPO**, **SimPO**, **RFT**).
 
 > Supports: T5, MT5, ByT5, CodeT5, BART, mBART, Pegasus, LED, T5Gemma, and more!
