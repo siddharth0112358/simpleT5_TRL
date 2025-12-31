@@ -1,0 +1,83 @@
+import setuptools
+from os import path
+
+here = path.abspath(path.dirname(__file__))
+
+with open(path.join(here, "README.md"), encoding="utf-8") as f:
+    long_description = f.read()
+
+setuptools.setup(
+    name="simplet5_trl",
+    version="0.3.0",
+    license="MIT",
+    author="Siddharth Deshpande",
+    author_email="siddharth.deshpande63@gmail.com",
+    description="simpleT5_TRL is built on top of HuggingFace Transformers and TRL that lets you quickly train encoder-decoder models (T5, BART, T5Gemma, etc.) with full finetuning, LoRA, QLoRA, DPO, SimPO, and RFT support.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/siddharth0112358/simpleT5_TRL",
+    project_urls={
+        "Repo": "https://github.com/siddharth0112358/simpleT5_TRL",
+        "Bug Tracker": "https://github.com/siddharth0112358/simpleT5_TRL/issues",
+    },
+    keywords=[
+        "T5",
+        "simpleT5_TRL",
+        "transformers",
+        "NLP",
+        "finetune",
+        "fine-tuning",
+        "pytorch",
+        "summarization",
+        "translation",
+        "training",
+        "classification",
+        "Q&A",
+        "inference",
+        "fast inference",
+        "LoRA",
+        "QLoRA",
+        "PEFT",
+        "BART",
+        "encoder-decoder",
+        "T5Gemma",
+        "TRL",
+        "Seq2SeqTrainer",
+        "DPO",
+        "SimPO",
+        "RFT",
+        "RLHF",
+        "preference-optimization",
+        "alignment",
+    ],
+    packages=setuptools.find_packages(),
+    python_requires=">=3.9",
+    install_requires=[
+        "numpy==1.26.4",
+        "pandas==1.3.5",
+        "scipy==1.15.0",
+        "sentencepiece==0.2.1",
+        "torch==2.9.1",
+        "transformers==5.0.0rc1",
+        "trl==0.26.2",
+        "peft==0.18.0",
+        "bitsandbytes==0.49.0",
+        "accelerate==1.12.0",
+        "datasets>=2.14.0",
+        "rouge-score>=0.1.2",
+        "torchaudio==2.9.1",
+        "torchvision==0.24.1",
+        "tf-keras==2.20.1",
+        "pillow==12.0.0"
+    ],
+    classifiers=[
+        "Intended Audience :: Developers",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+    ],
+)
