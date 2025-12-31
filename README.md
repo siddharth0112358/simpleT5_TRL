@@ -25,8 +25,18 @@
 
 ## Install
 
+### From PyPI
+
 ```bash
 pip install --upgrade simplet5_trl
+```
+
+### From Source
+
+```bash
+git clone https://github.com/siddharth0112358/simpleT5_TRL.git
+cd simpleT5_TRL
+pip install -e .
 ```
 
 ## Quick Start
