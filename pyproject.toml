@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "simplet5_trl"
-version = "0.3.1"
-description = "simpleT5_TRL is built on top of HuggingFace Transformers and TRL that lets you quickly train encoder-decoder models (T5, BART, T5Gemma, etc.) with full finetuning, LoRA, QLoRA, DPO, SimPO, and RFT support."
+name = "simplet5-trl"
+version = "0.1.5"
+description = "simpleT5-TRL is built on top of HuggingFace Transformers and TRL that lets you quickly train encoder-decoder models (T5, BART, T5Gemma, etc.) with full finetuning, LoRA, QLoRA, DPO, SimPO, and RFT support."
 readme = "README.md"
 license = "MIT"
 authors = [
@@ -23,7 +23,7 @@ classifiers = [
 ]
 keywords = [
     "T5",
-    "simpleT5_TRL",
+    "simpleT5-TRL",
     "transformers",
     "NLP",
     "finetune",
