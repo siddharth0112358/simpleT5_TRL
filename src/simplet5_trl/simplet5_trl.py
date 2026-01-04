@@ -1387,12 +1387,14 @@ class SimpleT5_TRL:
                     device_map="auto",
                     token=use_auth_token,
                     trust_remote_code=trust_remote_code,
+                    use_safetensors=False,
                 )
             else:
                 base_model = AutoModelForSeq2SeqLM.from_pretrained(
                     base_model_name,
                     token=use_auth_token,
                     trust_remote_code=trust_remote_code,
+                    use_safetensors=False,
                 )
             self._ensure_num_hidden_layers(base_model)
             self._ensure_decoder_start_token_id(base_model)
